@@ -2,10 +2,13 @@ var path = require("path");
 var webpack = require("webpack");
 
 module.exports = {
-    entry: './app.js',
+    entry: {
+        app_a: './app.js',
+        todo_app: './todo.js'
+    },
     output: {
         path: __dirname,
-        filename: 'bundle.js'
+        filename: '[name].bundle.js'
     },
     module: {
         loaders: [{
