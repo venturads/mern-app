@@ -20,7 +20,7 @@ const AppHead = ({addTask}) => {
       <button onClick={() => {
         addTask(input.value);
         input.value = '';
-      }} className='input-group-addon'>
+      }} className='btn btn-success'>
         Add task
       </button>
     </div>

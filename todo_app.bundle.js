@@ -23226,7 +23226,7 @@ var AppHead = function AppHead(_ref) {
       { onClick: function onClick() {
           addTask(input.value);
           input.value = '';
-        }, className: 'input-group-addon' },
+        }, className: 'btn btn-success' },
       'Add task'
     )
   );
