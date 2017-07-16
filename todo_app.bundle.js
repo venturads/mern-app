@@ -23240,7 +23240,7 @@ var Task = function Task(_ref2) {
   // For each task create list item with specific text and icon to remove the task
   return _react2.default.createElement(
     'li',
-    { className: 'task-item fa fa-check' },
+    { className: 'task-item' },
     _react2.default.createElement(
       'span',
       { className: 'fa fa-check' },
