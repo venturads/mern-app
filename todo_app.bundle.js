@@ -23240,7 +23240,13 @@ var Task = function Task(_ref2) {
   // For each task create list item with specific text and icon to remove the task
   return _react2.default.createElement(
     'li',
-    { className: 'task-item' },
+    { className: 'task-item fa fa-check' },
+    _react2.default.createElement(
+      'span',
+      { className: 'fa fa-check' },
+      '~'
+    ),
+    ' ',
     task.text,
     ' ',
     _react2.default.createElement('span', { className: 'fa fa-trash-o task-remover pull-right', onClick: function onClick() {

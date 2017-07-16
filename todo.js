@@ -31,7 +31,7 @@ const AppHead = ({addTask}) => {
 const Task = ({task, remove}) => {
   // For each task create list item with specific text and icon to remove the task
   return (
-    <li className='task-item'>{task.text} <span className='fa fa-trash-o task-remover pull-right' onClick={() => {remove(task.id)}}></span></li>
+    <li className='task-item fa fa-check'><span className='fa fa-check'>~</span> {task.text} <span className='fa fa-trash-o task-remover pull-right' onClick={() => {remove(task.id)}}></span></li>
   );
 }
 
